@@ -16,7 +16,7 @@ services:
       - DB_PORT=5432
 
   db:
-    image: postgres:14.16-alpine3.20
+    image: postgres:latest
     ports:
       - "5432:5432"
     restart: always
